@@ -1,0 +1,18 @@
+ul li {
+    list-style: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    }
+#blue {
+    background-color: #1a8cff;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: whitesmoke;
+    height: 32px;
+    font-weight: bold;
+}
+header {
+  position: relative;
+    text-align:right;
+    margin-right: 20px;
+}
