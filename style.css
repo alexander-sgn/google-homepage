@@ -3,6 +3,7 @@ ul li {
     padding-right: 10px;
     padding-left: 10px;
     display: inline;
+    font-family: arial,sans-serif;
     }
 #blue {
     background-color: #1a8cff;
@@ -11,16 +12,18 @@ ul li {
     color: whitesmoke;
     height: 32px;
     font-weight: bold;
+    font-family: arial,sans-serif;
 }
 header {
   position: relative;
     text-align:right;
     margin-right: 20px;
+    font-family: arial,sans-serif;
 }
     .center {
         display: block;
         margin-left: auto;
-        margin-right: auto;        
+        margin-right: auto;      
     }
     .searchbox {
         display: block;
@@ -28,20 +31,21 @@ header {
         margin-right: auto;        
         width: 400px;
     }
-     .p {
-         display: inline;
-         margin-left: auto;
-         margin-right: auto;
+     p {
          text-align: center;
       }
     .footer1 {
     text-align: left;
     position: relative;
     margin-inline-start: -50px;
+    bottom: -500px;
+    font-family: arial,sans-serif;
     }
     .footer2 {
         text-align: right;
         position: relative;  
         text-align: right;
         margin-right: 20;
+        bottom: -470px;
+        font-family: arial,sans-serif;
     }
