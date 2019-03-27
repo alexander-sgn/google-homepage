@@ -1,51 +1,74 @@
-ul li {
+#nav_bar  { 
+    float: right;
+}
+ul { 
     list-style: none;
-    padding-right: 10px;
-    padding-left: 10px;
-    display: inline;
-    font-family: arial,sans-serif;
-    }
-#blue {
-    background-color: #1a8cff;
-    padding-right: 10px;
-    padding-left: 10px;
-    color: whitesmoke;
-    height: 32px;
+}
+#nav_bar li { 
+    display: inline-block;
+    padding: 8px;
+}
+#nav_bar #Logg_på { 
+    background: #4887ef; 
+    margin-right: 25px;
+    padding: 7px 15px;
+    border-radius: 3px;
     font-weight: bold;
-    font-family: arial,sans-serif;
 }
-header {
-  position: relative;
-    text-align:right;
-    margin-right: 20px;
-    font-family: arial,sans-serif;
+.nav-links { 
+    color: #404040;
 }
-    .center {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;      
-    }
-    .searchbox {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;        
-        width: 400px;
-    }
-     p {
-         text-align: center;
-      }
-    .footer1 {
-    text-align: left;
-    position: relative;
-    margin-inline-start: -50px;
-    bottom: -500px;
-    font-family: arial,sans-serif;
-    }
-    .footer2 {
-        text-align: right;
-        position: relative;  
-        text-align: right;
-        margin-right: 20;
-        bottom: -470px;
-        font-family: arial,sans-serif;
-    }
+a  { 
+    text-decoration: none;
+    color: inherit;
+}
+li.nav-links a:hover { 
+    box-shadow: 1px 3px #888888;
+}
+#Logg_på { 
+    color: #fff;
+}
+#Logg_på:hover  { 
+    box-shadow: 2px 5px #888888;
+}
+#google_logo  { 
+    text-align: center;
+    display: block;
+    clear: both;
+    padding-top: 109px;
+    padding-bottom: 20px;
+}
+form { 
+    text-align: center;
+}
+#form { 
+width: 400px;
+}
+.buttons { 
+    text-align: center;
+    margin-bottom: 300px;
+}
+footer  { 
+    background: whitesmoke;
+    border-top: solid 1px #4e4e4e;
+   bottom: 0;
+}
+footer ul li { 
+    display: inline;
+    color: #666666;
+    padding: 13px;
+   
+}
+footer ul  { 
+    float: left;
+}
+.footer-right { 
+    position: absolute;
+    bottom: 0;
+    right: 2px;
+}
+.footer-left { 
+position: absolute;
+    bottom: 0;
+    left: -25px;
+}

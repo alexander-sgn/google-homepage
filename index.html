@@ -7,37 +7,38 @@
  <body>
      <header>
          <nav>
-             <ul>
-                <li>Gmail</li>
-                <li>Bilder</li>
-             </ul>
-         </nav>
-         <input id="blue" type="submit" value="Logg På">
+             <ul id="nav_bar">
+                <li class="nav-links" id="Gmail"> <a href="#">Gmail</a></li>
+                <li class="nav-links"><a href="#">Bilder</a></li>
+                <li id="Logg_på"><a href="#">Logg på</a></li>
+             </ul> 
+          </nav>
      </header>
-     <div>
-         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" width="272" height="100" class="center">
-    <input type="searchbar" type="text" class="searchbox">
-    <p>
-    <input type="submit" value="Google-søk"class="google">
-    <input type="submit" value="Jeg prøver lykken" class="lykke">
-    </p>
-      </div> 
-      <footer>
-         <ul class="footer1">
-            <li>Annonsering</li>
-            <li>Bedrifter</li>
-            <li>Info</li>
-            </ul>
-            <ul class="footer2">
-              <li>Personvern</li>
-              <li>Vilkår</li>
-              <li>Innstillinger</li>
-            </ul>
-     </footer>
-
-
-
-
-
-</body> 
+     <div class="Google_søk">
+       <a href="#" id="Google_logo"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" width="272" height="100">
+       </a>
+     </div>
+       <div class="form">
+         <form>
+           <label for="form-search"></label>
+           <input type="text" id="form"  placeholder="search"
+         </form>
+      </div>
+     <div class="buttons">
+    <input type="submit" value="Google-søk" id="Google-søk">
+    <input type="submit" value="Jeg prøver lykken" id="Jeg_prøver_lykken">
+     </div>
+    <footer>
+    <ul class="footer-left">
+  <li>Annonsering</li>
+  <li>Bedrifter</li>
+  <li>Info</li>
+    </ul>
+     <ul class="footer-right">
+  <li>Personvern</li>
+    <li>Vilkår</li>
+   <li>Innstillinger</li>
+    </ul>
+   </footer>
+ </body> 
 </html>
