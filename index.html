@@ -1,44 +1,48 @@
-<!DOCKTYPE html>
-<html lang="en">
- <head>
- <title>Alexander sin første nettside</title>
- <link href="style.css" rel="stylesheet" type="text/css">
- </head>
- <body>
-     <header>
-         <nav>
-             <ul id="nav_bar">
-                <li class="nav-links" id="Gmail"> <a href="#">Gmail</a></li>
-                <li class="nav-links"><a href="#">Bilder</a></li>
-                <li id="Logg_på"><a href="#">Logg på</a></li>
-             </ul> 
-          </nav>
-     </header>
-     <div class="Google_søk">
-       <a href="#" id="Google_logo"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" width="272" height="100">
-       </a>
-     </div>
-       <div class="form">
-         <form>
-           <label for="form-search"></label>
-           <input type="text" id="form"  placeholder="search"
-         </form>
-      </div>
-     <div class="buttons">
-    <input type="submit" value="Google-søk" id="Google-søk">
-    <input type="submit" value="Jeg prøver lykken" id="Jeg_prøver_lykken">
-     </div>
-    <footer>
-    <ul class="footer-left">
-  <li>Annonsering</li>
-  <li>Bedrifter</li>
-  <li>Info</li>
-    </ul>
-     <ul class="footer-right">
-  <li>Personvern</li>
-    <li>Vilkår</li>
-   <li>Innstillinger</li>
-    </ul>
-   </footer>
- </body> 
+<!DOCTYPE html>
+<html>
+<head>
+<title>Stein saks papir test</title>
+<link rel="stylesheet" href="style.css">
+<meta charset="utf-8"/> 
+</head>
+
+<body>
+<header>
+    <h1>Stein saks papir</h1>
+</header>
+
+<div class="score-board">
+    <div id="user-label" class="badge">user</div>
+    <div id="computer-label" class="badge">comp</div>
+    <span id="user-score">0</span>:<span id="computer-score">0</span>
+</div>
+
+<div class="result">
+    <p>Snart er påskeegget ditt!</p>
+    <p>du trenger nå hjelp av vedkommende på bildet under for å løse neste punkt.</p>
+</div> 
+
+<div class="choises" >
+    <div class="choise" id="r">  
+        <img src="http://www.merjano.no/Kull%20E/6_5497.jpg" alt="">
+   </div>
+
+    <div class="choise" id="p">  
+        <img src="http://www.merjano.no/Kull%20E/6_5497.jpg" alt="">
+    </div>
+
+    <div class="choise" id="s">  
+                <img src="http://www.merjano.no/Kull%20E/6_5497.jpg" alt="">
+    </div>
+</div>
+
+ <p id="action-message">Make your move.</p>
+</body>
+
+
+<script src="app.js" charset="utf-8"></script>
+</body>
 </html>
+
+
+
